@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing my skills, projects, and experience in cybersecurity, web development, and automation.
 
-🔗 Live Demo: Coming soon (GitHub Pages deployment in progress)
+🔗 Live Demo: https://kkmojela-glitch.github.io/portfolio-project/
 
 ## 🛠️ Technologies Used
 
