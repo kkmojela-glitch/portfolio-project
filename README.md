@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing my skills, projects, and experience in cybersecurity, web development, and automation.
 
-🔗 **Live Demo:** [Add your live website link here if you have one]
+🔗 Live Demo: Coming soon (GitHub Pages deployment in progress)
 
 ## 🛠️ Technologies Used
 
