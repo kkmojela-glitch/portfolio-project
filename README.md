@@ -26,5 +26,6 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 ## 🚀 How to View Locally
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/kkmojela-glitch/portfolio-project.git
+
+```bash
+git clone https://github.com/kkmojela-glitch/portfolio-project.git
