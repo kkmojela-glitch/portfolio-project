@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabelo Mojela | Cybersecurity & Automation Portfolio</title>
+    <meta name="description" content="Kabelo Mojela builds practical cybersecurity workflows, automation tools, and AI-assisted solutions that help people work smarter.">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">KM</div>
+            <a href="#home" class="logo">KM</a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -19,7 +20,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="menu-toggle">
+            <div class="menu-toggle" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
@@ -27,82 +28,197 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Kabelo Mojela</span></h1>
-            <p class="tagline">Cybersecurity Enthusiast | Automation Developer | AI Security Tools</p>
-            <p class="description">I build secure automation workflows and explore AI-assisted cybersecurity solutions.</p>
-            <a href="#projects" class="btn">View My Work</a>
+            <span class="eyebrow">Cybersecurity • Automation • Practical AI</span>
+            <h1>I build <span class="highlight">useful security and automation solutions</span> that help teams move faster.</h1>
+            <p class="description">I focus on workflows that are practical, dependable, and built to make everyday work feel simpler and safer.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn">See my work</a>
+                <a href="#contact" class="btn btn-secondary">Let’s talk</a>
+            </div>
+            <div class="hero-points">
+                <div>
+                    <strong>Hands-on</strong>
+                    <span>Security workflows</span>
+                </div>
+                <div>
+                    <strong>Reliable</strong>
+                    <span>Automation systems</span>
+                </div>
+                <div>
+                    <strong>Practical</strong>
+                    <span>AI-assisted solutions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-preview">
+        <div class="container">
+            <div class="services-preview-grid">
+                <article class="mini-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security workflows</h3>
+                    <p>Streamlining triage, investigation, and reporting with practical automation.</p>
+                </article>
+                <article class="mini-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automation systems</h3>
+                    <p>Reducing repetitive work with workflows that are dependable and easy to maintain.</p>
+                </article>
+                <article class="mini-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast implementation</h3>
+                    <p>Building useful tools quickly, with clear communication and real-world focus.</p>
+                </article>
+            </div>
         </div>
     </section>
 
     <section id="about" class="about">
-    <div class="container">
-        <h2>About Me</h2>
-        <img src="profile.jpg" alt="Kabelo Mojela" style="width:150px; border-radius:50%; display:block; margin:0 auto 1rem auto;">
-        <div class="about-content">
-            <p>I am passionate about cybersecurity, automation, and leveraging AI for security tasks. I recently completed a cybersecurity bootcamp where I built phishing analysis workflows with n8n, connected Claude AI to security tools, and performed subdomain enumeration. I enjoy solving problems and automating repetitive tasks.</p>
-            <p>Currently, I am expanding my knowledge in Linux security, cloud infrastructure, and penetration testing.</p>
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">About</p>
+                <h2>Who I am</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <img src="profile.jpg" alt="Kabelo Mojela">
+                    <p>I’m Kabelo Mojela, a cybersecurity and automation enthusiast focused on creating practical solutions that solve real problems. I enjoy turning technical ideas into workflows that save time, reduce friction, and make everyday operations easier.</p>
+                    <p>My recent work has centered on phishing triage, subdomain research, and AI-assisted security operations, while I continue growing my knowledge in Linux, cloud systems, and secure development.</p>
+                </div>
+                <div class="about-card about-card-accent">
+                    <h3>Current focus</h3>
+                    <ul>
+                        <li>Security automation and workflow design</li>
+                        <li>Linux and cloud-based security tooling</li>
+                        <li>AI-assisted analysis and operational efficiency</li>
+                        <li>Simple, user-friendly solutions for real teams</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
-                
+    </section>
+
     <section id="skills" class="skills">
         <div class="container">
-            <h2>Technical Skills</h2>
+            <div class="section-heading">
+                <p class="section-label">Skills</p>
+                <h2>Stack & Skills</h2>
+            </div>
             <div class="skills-grid">
-                <div class="skill-card"><i class="fab fa-docker"></i><h3>Docker</h3></div>
-                <div class="skill-card"><i class="fas fa-robot"></i><h3>n8n</h3></div>
-                <div class="skill-card"><i class="fab fa-python"></i><h3>Python</h3></div>
-                <div class="skill-card"><i class="fab fa-linux"></i><h3>Linux/Ubuntu</h3></div>
-                <div class="skill-card"><i class="fas fa-brain"></i><h3>AI (Claude/CAI)</h3></div>
-                <div class="skill-card"><i class="fas fa-code"></i><h3>HTML/CSS/JS</h3></div>
-                <div class="skill-card"><i class="fab fa-github"></i><h3>Git & GitHub</h3></div>
-                <div class="skill-card"><i class="fas fa-shield-alt"></i><h3>Cybersecurity</h3></div>
+                <div class="skill-card" data-info="Containerise services, build reproducible environments and run containers with Compose."><i class="fab fa-docker"></i><h3>Docker</h3><div class="tech-badges"><span>containers</span><span>compose</span></div></div>
+                <div class="skill-card" data-info="Design and implement n8n workflows for automating tasks and integrating APIs."><i class="fas fa-robot"></i><h3>n8n</h3><div class="tech-badges"><span>workflows</span><span>integrations</span></div></div>
+                <div class="skill-card" data-info="Python scripting for automation, data parsing and small services."><i class="fab fa-python"></i><h3>Python</h3><div class="tech-badges"><span>automation</span><span>scripts</span></div></div>
+                <div class="skill-card" data-info="Linux server administration, shell automation, and deploying services on Ubuntu."><i class="fab fa-linux"></i><h3>Linux/Ubuntu</h3><div class="tech-badges"><span>server</span><span>shell</span></div></div>
+                <div class="skill-card" data-info="Chain AI agents and build prompt-driven automation for analysis tasks."><i class="fas fa-brain"></i><h3>AI workflows</h3><div class="tech-badges"><span>agents</span><span>prompting</span></div></div>
+                <div class="skill-card" data-info="Frontend prototypes, small apps and interactive UI using HTML, CSS and vanilla JS."><i class="fas fa-code"></i><h3>HTML/CSS/JS</h3><div class="tech-badges"><span>frontend</span><span>UX</span></div></div>
+                <div class="skill-card" data-info="Version control, Git workflows, GitHub repos and simple CI setups."><i class="fab fa-github"></i><h3>Git & GitHub</h3><div class="tech-badges"><span>ci</span><span>repos</span></div></div>
+                <div class="skill-card" data-info="Practical security work: tooling, pentest checklists and pragmatic controls."><i class="fas fa-shield-alt"></i><h3>Cybersecurity</h3><div class="tech-badges"><span>pentest</span><span>tooling</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">Process</p>
+                <h2>How I work</h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <h4>1. Discovery</h4>
+                    <p>Understand the environment, data sources and constraints — produce a concise plan.</p>
+                </div>
+                <div class="process-step">
+                    <h4>2. Prototype</h4>
+                    <p>Build a small, testable workflow or script to validate the approach quickly.</p>
+                </div>
+                <div class="process-step">
+                    <h4>3. Implement</h4>
+                    <p>Deploy reliable automation with logging, error handling and simple maintenance notes.</p>
+                </div>
+                <div class="process-step">
+                    <h4>4. Handover</h4>
+                    <p>Document runbooks, provide a short walkthrough, and help with deployment as needed.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <div class="section-heading">
+                <p class="section-label">Projects</p>
+                <h2>Selected work</h2>
+            </div>
             <div class="project-grid">
-                <div class="project-card">
+                <article class="project-card">
                     <i class="fas fa-envelope-open-text"></i>
                     <h3>Phishing Email Triage</h3>
-                    <p>n8n workflow that uses Gemini AI to analyze phishing emails and logs results to Google Sheets.</p>
-                </div>
-                <div class="project-card">
+                    <p>An n8n workflow that reviews phishing emails, summarizes risk, enriches indicators, and logs results for follow-up.</p>
+                    <ul class="project-tech">
+                        <li><strong>Stack:</strong> n8n, Python, Google Sheets</li>
+                        <li><strong>Role:</strong> Design & implementation</li>
+                    </ul>
+                    <div class="card-tags"><span>n8n</span><span>Automation</span></div>
+                </article>
+                <article class="project-card">
                     <i class="fas fa-network-wired"></i>
                     <h3>Hexstrike + Claude</h3>
-                    <p>Connected Claude Desktop to Hexstrike MCP server to run subdomain enumeration on cloudsecnetwork.com.</p>
-                </div>
-                <div class="project-card">
+                    <p>Integrated Claude Desktop with Hexstrike MCP to orchestrate subdomain enumeration and collect findings.</p>
+                    <ul class="project-tech">
+                        <li><strong>Stack:</strong> Hexstrike, Claude, Bash</li>
+                        <li><strong>Notes:</strong> automation for repeatable discovery</li>
+                    </ul>
+                    <div class="card-tags"><span>Security</span><span>AI</span></div>
+                </article>
+                <article class="project-card">
                     <i class="fas fa-shield-hog"></i>
                     <h3>CAI Framework</h3>
-                    <p>Installed Cybersecurity AI (CAI) on Ubuntu and loaded the Web App Pentester agent.</p>
-                </div>
-                <div class="project-card">
+                    <p>Installed Cybersecurity AI on Ubuntu and evaluated the Web App Pentester agent to build repeatable testing workflows.</p>
+                    <ul class="project-tech">
+                        <li><strong>Stack:</strong> Ubuntu, CAI, Docker</li>
+                        <li><strong>Outcome:</strong> deployment notes and test checklist</li>
+                    </ul>
+                    <div class="card-tags"><span>Linux</span><span>Testing</span></div>
+                </article>
+                <article class="project-card">
                     <i class="fas fa-leaf"></i>
                     <h3>GreenEdge Website</h3>
-                    <p>Responsive business website for a gardening company.</p>
-                </div>
-                <div class="project-card">
-  <h3>Freelance Lead Aggregator (n8n)</h3>
-  <p>Automated workflow that scrapes Reddit's r/forhire every 6 hours, filters for specific skills (AI, automation, n8n, developer, freelance), and emails matching leads – saving hours of manual searching.</p>
-  <p><strong>Tech:</strong> n8n, Reddit JSON API, SMTP (Gmail), Regex filtering</p>
-  <p><strong>Impact:</strong> Delivers 4‑10 qualified leads per run, used for personal job hunting and freelancing.</p>
-  <a href="https://github.com/kkmojela-glitch/portfolio-project" target="_blank">View Code (in this repo)</a>
-</div>
+                    <p>Built a responsive website for a gardening business, focusing on clear messaging and a polished user experience.</p>
+                    <div class="card-tags"><span>Web</span><span>Design</span></div>
+                </article>
+                <article class="project-card project-card-wide">
+                    <h3>Freelance Lead Aggregator</h3>
+                    <p>Automated a lead-finding workflow that checks targeted sources, filters matching posts, and emails qualified leads.</p>
+                    <ul class="project-tech">
+                        <li><strong>Stack:</strong> n8n, Reddit JSON API, SMTP, Python</li>
+                        <li><strong>Impact:</strong> 4–10 qualified leads per run</li>
+                    </ul>
+                    <p class="project-meta"><strong>Tech:</strong> n8n, Reddit JSON API, SMTP, Regex filters</p>
+                    <a href="https://github.com/kkmojela-glitch/portfolio-project" target="_blank" rel="noopener noreferrer">View source on GitHub</a>
+                </article>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
+            <div class="section-heading">
+                <p class="section-label">Contact</p>
+                <h2>Let’s connect</h2>
+            </div>
+            <p class="contact-intro">Open to freelance work, learning projects, and practical security or automation challenges.</p>
+            <div class="contact-panel">
+                <a href="mailto:k.kmojela@gmail.com" class="btn">Email me directly</a>
+                <a href="tel:+27832142695" class="btn">Call me</a>
+                <p>I’m happy to help with thoughtful, useful builds that make work easier and more efficient.</p>
+            </div>
             <div class="contact-links">
-                <a href="https://github.com/kkmojela-glitch" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://github.com/kkmojela-glitch" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
                 <a href="mailto:k.kmojela@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.linkedin.com/in/kabelo-mojela" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="tel:+27832142695"><i class="fas fa-phone"></i> 083 214 2695</a>
+                <a href="https://www.linkedin.com/in/kabelo-mojela" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
     </section>
@@ -110,6 +226,16 @@
     <footer>
         <p>&copy; 2026 Kabelo Mojela. All rights reserved.</p>
     </footer>
+
+    <!-- Skill info modal -->
+    <div id="skillModal" class="modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="skillTitle">
+            <button class="modal-close" aria-label="Close">×</button>
+            <h3 id="skillTitle">Skill</h3>
+            <p id="skillDescription"></p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
